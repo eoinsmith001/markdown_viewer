@@ -4,7 +4,8 @@
   "description": "Real Time Markdown Viewer (scotch tutorial)",
   "main": "server.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node server.js"
   },
   "keywords": [
     "scotch",
@@ -18,5 +19,14 @@
     "express": "^4.13.0",
     "redis": "^0.12.1",
     "share": "^0.7.38"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eoinsmith001/markdown_viewer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eoinsmith001/markdown_viewer/issues"
+  },
+  "homepage": "https://github.com/eoinsmith001/markdown_viewer#readme"
 }
