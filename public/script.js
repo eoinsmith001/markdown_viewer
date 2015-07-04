@@ -1,6 +1,6 @@
 window.onload = function() {
-  var converter = new showdown.Converter();
-  var pad = document.getElementById('pad');
+  var converter    = new showdown.Converter();
+  var pad          = document.getElementById('pad');
   var markdownArea = document.getElementById('markdown');
 
   var convertTextAreaToMarkdown = function() {
@@ -10,5 +10,7 @@ window.onload = function() {
   }
 
   pad.addEventListener('input', convertTextAreaToMarkdown);
-  convertTextAreaToMarkdown();
+  sharejs.open('home', 'text', function(err,doc) {
+    doc.attach_textarea(pad);
+  });
 }
