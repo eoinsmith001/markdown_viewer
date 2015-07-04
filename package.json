@@ -1,0 +1,22 @@
+{
+  "name": "markdown_viewer",
+  "version": "1.0.0",
+  "description": "Real Time Markdown Viewer (scotch tutorial)",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "scotch",
+    "markdown",
+    "realtime"
+  ],
+  "author": "esmith",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.3.2",
+    "express": "^4.13.0",
+    "redis": "^0.12.1",
+    "share": "^0.7.38"
+  }
+}
