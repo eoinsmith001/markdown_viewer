@@ -18,7 +18,7 @@
     "ejs": "^2.3.2",
     "express": "^4.13.0",
     "redis": "^0.12.1",
-    "share": "^0.7.38"
+    "share": "^0.6.3"
   },
   "devDependencies": {},
   "repository": {
